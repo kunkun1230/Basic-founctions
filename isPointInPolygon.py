@@ -19,7 +19,7 @@ def isPointInPolygon(point,polyset):
     flag=False   #线段在测试点右侧的数目为奇数个为True，否则为False
     if len(polyset)<4:
         return flag
-    for i in range(len(polyset)-1):
+     for i in range(len(polyset)-1):
         X0=polyset[i][0]
         Y0=polyset[i][1]
         X1=polyset[i+1][0]
@@ -43,4 +43,4 @@ def isPointInPolygon(point,polyset):
                 return flag
             elif(temp>point[0]):#线段在测试点右侧
                 flag=not flag
-		return flag
+   return flag
