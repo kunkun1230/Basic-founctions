@@ -10,3 +10,6 @@
 
 ### 3. [isPointInPolygon](https://github.com/kunkun1230/Basic-founctions/blob/master/isPointInPolygon.py)  
 1.设置电子围栏，判断当前数据点是否在电子围栏中（可用于打卡，路径偏移等问题）
+
+### 4. [Smote_resample](https://github.com/kunkun1230/Basic-founctions/blob/master/Smote_resample.py)  
+1.针对样本中的正负样本不均衡的问题进行重采样，构造数据确保两类数据集数量均衡
